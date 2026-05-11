@@ -13,7 +13,7 @@
 
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body> 
 
   <nav class="navbar navbar-dark bg-dark">
     <div class="container">
@@ -35,7 +35,28 @@
 
     <div id="erro"></div>
 
+    <div class="mb-4">
+      <input
+        type="text"
+        class="form-control"
+        id="search"
+        placeholder="Buscar personagem..."
+      >
+    </div>
+
     <div class="row" id="cards"></div>
+
+    <nav class="mt-5">
+      <ul class="pagination justify-content-center">
+        <li class="page-item" id="prev-btn">
+          <button class="page-link">Anterior</button>
+        </li>
+        <li class="page-item" id="page-info"><span class="page-link">Página 1</span></li>
+        <li class="page-item" id="next-btn">
+          <button class="page-link">Próxima</button>
+        </li>
+      </ul>
+    </nav>
 
   </div>
 
